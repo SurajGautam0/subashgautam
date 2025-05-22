@@ -10,7 +10,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Trash2 } from "lucide-react"
 import { BlobImageUpload } from "@/components/blob-image-upload"
 import { FileUpload } from "@/components/file-upload"
-import { TagInput } from "@/components/tag-input"
+import { TagInput } from "./tag-input"
 
 interface ProjectFormItemProps {
   form: UseFormReturn<any>
